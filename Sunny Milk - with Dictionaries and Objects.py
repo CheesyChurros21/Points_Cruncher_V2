@@ -795,4 +795,4 @@ async def on_command_error(a, error): #for general bad inputs not already locall
     elif isinstance(error, commands.MissingPermissions): #NOTE dont know how to make this one work, adminCheck command is a workaround for this
         await a.send("Only the head fairy can run these commands")
 '''
-bot.run("OTc1MjAwMDkyMjU4NzAxMzUy.GNRUcO.Jb1OQwfUpjeob67HuaN7LxjPny0v_eQKJYd014") #runs bot (inside is the bot token)
+bot.run("redacted bot token") #runs bot (inside is the bot token, which is not shown for privacy reasons)
